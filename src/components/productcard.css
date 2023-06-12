@@ -5,6 +5,9 @@
     width: 16rem;
 }
 
+.product:hover{
+    scale:1.05;
+}
 .product-image{
     height: 12rem;
     width: 100%;

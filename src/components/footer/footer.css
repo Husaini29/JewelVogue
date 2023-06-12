@@ -2,7 +2,7 @@
     background: #232f3e;
     color: white;
     margin-top: 2rem;
-    height: 14rem;
+    height: fit-content;
 }
 
 .footer{
@@ -38,4 +38,14 @@
 .center{
     display: flex;
     justify-content: center;
+}
+
+@media (max-width: 414px){
+    .footer{
+        display: block;
+        padding-top: 1rem;
+    }
+    .tagline{
+        margin: 0;
+    }
 }

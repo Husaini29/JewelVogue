@@ -66,36 +66,42 @@
     width: 15px;
 }
 
-@media only screen and (max-width: 1024px) and (min-width: 764px){
-        .navbar{
-            width: 142%;
-        }
+@media(max-width:414px){
         .nav-header{
-            width: 85%;
-        }
-        .search-input{
-            margin-left: 46%;
-        }
-}
-@media only screen and (max-width: 390px) and (min-widt:0){
-        .navbar{
-            width: 137%;
-        }
-        .nav-header{
-            width: 80%;
+            display: inline;
         }
         .site-name{
-            margin-left: 2rem;
+            margin-left: 1rem;
         }
         .search-input{
-            margin-left: 4%;
-            width: 9rem;
+            display: none;
         }
-        .login-btn{
-            padding: 0.3rem 0.7rem;
-            margin-left: 1rem;
+        .nav-item{
+            display: inline;
+            margin-left: 2rem;
         }
         .nav-links{
             margin-left: 0;
         }
+        .nav-icons{
+            font-size: 1.5rem;
+        }
+}
+
+
+@media (min-width:764px) and (max-width:1280px){
+    .nav-header{
+        width: 55%;
+    }
+    .site-name{
+        margin-left: 2rem;
+    }
+    .search-input{
+        margin-left: 10%;
+        width: 12rem;
+    }
+    .nav-item{
+        float: right;
+        margin: 0.7rem;
+    }
 }

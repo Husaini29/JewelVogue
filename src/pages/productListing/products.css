@@ -7,8 +7,8 @@
 }
 
 .product-card-container{  
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    display: flex;
+    flex-wrap: wrap;
     grid-column-gap: 2rem;
     grid-row-gap: 2rem;
     margin-left: 4rem;
